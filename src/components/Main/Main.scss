@@ -1,0 +1,155 @@
+.expand
+{
+    height: 100%;
+    width: 87%;
+.main
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    justify-content:space-around;
+    background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609612021/e-com/uhu5422_w8c9rs.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    .title
+    {
+        font-size:medium;
+        padding:50px 0 0 50%;
+
+    }
+    .name
+    {
+        font-size: xx-large;
+        padding:10px 0px 0 50%;
+        margin-top: -80px;
+        .yu
+        {
+            width: 140px;
+            height: 10px;
+            background-color: #C09E59;
+            margin-top: -45px;
+        }
+    }
+    .bb
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        width: 100%;
+        height: 100%;
+        background-color: #C09E59;
+    
+    .text
+    {
+        padding:50px 150px 50px 200px;
+        width: 80%;
+        height: 100%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+    }
+    .boundary
+    {
+        width: 100%;
+        height: 100px;
+        background-color: #C09E59;
+    }
+}
+    .exp-con{
+        width: 100%;
+        height: 150vh;
+    }
+}
+// @media screen and(max-width:1006px)
+// {
+//     .expand
+//     {
+//         .main
+//         {
+//             display: flex;
+//     flex-direction: column;
+//     width:100%;
+//     height: 100%;
+//     justify-content:flex-start;
+//     background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609787064/e-com/4196050_rgwctj.jpg");
+//     background-repeat: no-repeat;
+//     background-position: right;
+//     // background-size: 500px 500px;
+//     // background-image: none;
+//     // background-color: black;
+//         }
+//     }
+// }
+
+@media screen and (max-width:683px){
+    .expand
+{
+    height: 100%;
+    width: 100%;
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    justify-content:flex-start;
+    background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609787064/e-com/4196050_rgwctj.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .title
+    {
+        font-size:small;
+        padding:50px 0 0 30%;
+
+    }
+    .name
+    {
+        font-size: large;
+        padding:50px 0px 0 30%;
+        margin-top: -80px;
+        .yu
+        {
+            width: 100px;
+            height: 10px;
+            background-color: #C09E59;
+            margin-top: -15px;
+        }
+    }
+    .bb
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        width: 100%;
+        height: 10%;
+        background-color: #C09E59;
+    
+    .text
+    {
+         padding:10px;
+        width: 100%;
+        height: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 400;
+        border: none;
+    }
+    }
+    .boundary
+    {
+        width: 100%;
+        height: 50%;
+        background-color: #C09E59;
+    }
+}
+    .exp-con{
+        width: 100%;
+        height: 150vh;
+    }
+}
+}

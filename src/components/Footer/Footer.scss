@@ -1,0 +1,237 @@
+.foot
+{
+    width: 100vw;
+    height: 2%;
+    margin-left: -13%;
+    display: flex;
+    margin-top: 3.5%;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609885110/e-com/24791_zqh7kv.jpg');
+    background-size: contain;
+    .footer-bottom-wrapper{
+width: 60%;
+display: flex;
+padding-left: 20px;
+    }   
+.social
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    .li
+    {
+        width: 30%;
+        height: 30%;
+        background: url('https://api.iconify.design/brandico:linkedin-rect.svg?color=%23C09E59') no-repeat center center / contain;
+    }
+    .ins
+    {
+        width: 30%;
+        height: 30%;
+        background: url('https://api.iconify.design/fa-brands:instagram-square.svg?color=%23C09E59&width=25&height=50') no-repeat center center;
+    }
+    .face
+    {
+        width: 30%;
+        height: 30%;
+        background: url('https://api.iconify.design/brandico:facebook-rect.svg?color=%23C09E59') no-repeat center center / contain;
+    }
+}
+
+}
+@media screen and(max-width:300px)
+{
+    .foot
+    {
+        width: 100vw;
+        height: 2%;
+        margin-left: -10%;
+        display: flex;
+        margin-top: 3.5%;
+        position: absolute;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609885110/e-com/24791_zqh7kv.jpg');
+        background-size: contain;
+        .footer-bottom-wrapper{
+    width: 60%;
+    display: flex;
+    padding-left: 20px;
+        }   
+    .social
+    {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        .li
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:linkedin-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+        .ins
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/fa-brands:instagram-square.svg?color=%23C09E59&width=25&height=50') no-repeat center center;
+        }
+        .face
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:facebook-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+    }
+    
+    }
+}
+@media screen and(max-width:663px)
+{
+    .foot
+    {
+        width: 100vw;
+        height: 2%;
+        margin-left: -9%;
+        display: flex;
+        margin-top: 3.5%;
+        position: absolute;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609885110/e-com/24791_zqh7kv.jpg');
+        background-size: contain;
+        .footer-bottom-wrapper{
+    width: 60%;
+    display: flex;
+    padding-left: 20px;
+        }   
+    .social
+    {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        .li
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:linkedin-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+        .ins
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/fa-brands:instagram-square.svg?color=%23C09E59&width=25&height=50') no-repeat center center;
+        }
+        .face
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:facebook-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+    }
+    
+    }
+}
+@media screen and(max-width:552px)
+{
+    .foot
+    {
+        width: 100vw;
+        height: 2%;
+        margin-left: -7%;
+        display: flex;
+        margin-top: 3.5%;
+        position: absolute;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609885110/e-com/24791_zqh7kv.jpg');
+        background-size: contain;
+        .footer-bottom-wrapper{
+    width: 60%;
+    display: flex;
+    padding-left: 20px;
+        }   
+    .social
+    {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        .li
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:linkedin-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+        .ins
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/fa-brands:instagram-square.svg?color=%23C09E59&width=25&height=50') no-repeat center center;
+        }
+        .face
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:facebook-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+    }
+    
+    }
+}
+@media screen and(max-width:368px)
+{
+    .foot
+    {
+        width: 100vw;
+        height: 2%;
+        margin-left: -10%;
+        display: flex;
+        margin-top: 3.5%;
+        position: absolute;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609885110/e-com/24791_zqh7kv.jpg');
+        background-size: contain;
+        .footer-bottom-wrapper{
+    width: 60%;
+    display: flex;
+    padding-left: 20px;
+        }   
+    .social
+    {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        .li
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:linkedin-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+        .ins
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/fa-brands:instagram-square.svg?color=%23C09E59&width=25&height=50') no-repeat center center;
+        }
+        .face
+        {
+            width: 30%;
+            height: 30%;
+            background: url('https://api.iconify.design/brandico:facebook-rect.svg?color=%23C09E59') no-repeat center center / contain;
+        }
+    }
+    
+    }
+}

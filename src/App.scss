@@ -1,0 +1,148 @@
+.App
+{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+ 
+//   position: relative;
+    .ybar
+    {
+        display: flex;
+        width: 12%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        .lb1{
+        width: 100%;
+        height: 21.5%;
+        background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+        // background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 100px;
+       
+        }
+        .lb2{
+            width: 100%;
+            height: 20%;
+            background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+            // background-repeat: no-repeat;
+            background-size: contain;
+            
+            }
+            .lb3{
+                width: 100%;
+                height:43.5%;
+                background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+                // background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 100px;
+                }
+                // .lb4{
+                //     width: 100%;
+                //     height:20%;
+                //     background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+                //     // background-repeat: no-repeat;
+                //     background-size: contain;
+                //     }
+                    // .lb5{
+                    //     width: 100%;
+                    //     height:5%;
+                    //     background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+                    //     // background-repeat: no-repeat;
+                    //     background-size: contain;
+                    //     }
+    }
+    .bbar
+    {
+        width: 1%;
+        border: none;
+        height: 86.8vh;
+        background-color: #C09E59;
+    }
+    // .frame
+    // {
+    //     position: absolute;
+    //     background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609621548/e-com/marble-textured-backdrop-frame_rcztwn.jpg");
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    //     background-blend-mode: screen;
+    //     width: 34%;
+    //     margin-left: 5%;
+    //     margin-top: 7%;
+    //     height: 64%;
+    //     img{
+    //         position: absolute;
+    //         -moz-opacity: 0.5;
+    //     -khtml-opacity: 0.5;5    //     opacity: 0.9;
+    //         width: 150px;
+    //         height:40%;
+    //         margin-top: 32%;
+    //         margin-left: 15%;
+    //         background-blend-mode: overlay;
+            
+    //     }
+    // }
+}
+@media screen and (max-width:600px)
+{
+    .App
+    {
+        width: 100%;
+    .ybar
+    {
+        width: 40px;
+        height: 20%;
+        background-image: none;
+        
+        background-image: linear-gradient(to bottom,#171A21,#292d38,#30343f,#333741,#292d38,#C09E59);
+        // background-image: url("https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609693823/e-com/2237048_yndl3b.jpg");
+        // background-repeat: no-repeat;
+        // background-size: contain;
+        .lb1{
+            width: 100%;
+            height: 74.9vh;
+           margin-bottom: 100px;
+            background-image: none;
+            // background-repeat: no-repeat;
+            background-size: contain;
+            }
+            .lb2{
+                width: 100%;
+                height: 84.9vh;
+                margin-top: -1px;
+                background-image: none;
+                // background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 100px;
+                }
+                .lb3{
+                    width: 100%;
+                    height: 86.9vh;
+                    margin-top: -1px;
+                    background-image: none;
+                    // background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-bottom: 100px;
+                    }
+                    .lb4{
+                        width: 100%;
+                        height: 46.9vh;
+                        margin-top: -1px;
+                        background-image: none;
+                        // background-repeat: no-repeat;
+                        background-size: contain;
+                        }
+      
+    }
+    .bbar
+    {
+        width: 3px;
+        height: 100%;
+        background-color: #C09E59;
+        border: none;
+    }
+}
+}

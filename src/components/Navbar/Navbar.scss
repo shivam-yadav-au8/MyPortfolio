@@ -1,0 +1,83 @@
+l1{
+    width: auto;
+}.navbar
+{
+    position:sticky;
+    display: flex;
+    width:84% ;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    .ul
+    {
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        width: 70%;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        .l1.cs
+        {
+            width: 150px;
+        }
+        .hm{
+            display: none;
+           
+        }
+        :hover{
+            font-size:22px;
+            border-bottom: 2px solid #C09E59;
+        }
+    }
+    .ul1
+    {
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        word-wrap: none;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        .hm{
+            display: none;
+        }
+        :hover{
+            font-size:22px;
+            border-bottom: 2px solid #C09E59;
+        }
+    }
+}
+@media screen and (max-width: 863px) {
+    .navbar
+    {
+        .ul{
+            display: flex;
+            flex-direction:column;
+            justify-content: space-around;
+            .hm{
+                display: flex;
+            }
+        }
+        .ul1
+    {
+        display: none;
+        justify-content:space-around;
+        flex-direction: row;
+        width: 60%;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+
+        .hm{
+            display: none;
+        }
+        :hover{
+            font-size:22px;
+            border-bottom: 2px solid #C09E59;
+        }
+    }
+    }
+}
