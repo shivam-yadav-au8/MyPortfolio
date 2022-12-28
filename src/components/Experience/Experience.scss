@@ -1,8 +1,8 @@
 .exp
 {
-    width: 100%;
+    width: 96%;
     height: 50%;
-    background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1609683506/e-com/19504_meugt4.jpg');
+    background-image: url('../../assests/19504_meugt4.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@
         height: 100%;
         display: flex;
         margin-top: 30px;
+        margin-left:50px;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
@@ -147,6 +148,7 @@
         height: 100%;
         display: flex;
         margin-top: 30px;
+        margin-left:50px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
