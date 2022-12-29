@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import ExampleDoc from "../../assests/Resume.pdf";
+import ExampleDoc from "../../assests/Shivam_yadav_resume.pdf";
 import "./CV.scss";
 class CV extends Component {
   state = {};
