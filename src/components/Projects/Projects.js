@@ -11,7 +11,7 @@ import sjl from '../../assests/sjl.png';
 import weather from '../../assests/weather.png';
 class Projects extends Component {
     state = { 
-        img:[movie,fotofab,weather,kanban,,rps,sjl,,bank,country]
+        img:[movie,fotofab,weather,kanban,rps,sjl,bank,country]
      }
     render() { 
         return (<div className="projects">
