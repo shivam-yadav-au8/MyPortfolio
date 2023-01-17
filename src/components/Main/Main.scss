@@ -104,11 +104,11 @@
       background-size: cover;
       .title {
         font-size: small;
-        padding: 50px 0 0 30%;
+        padding: 50px 0 0 40%;
       }
       .name {
         font-size: large;
-        padding: 50px 0px 0 30%;
+        padding: 50px 0px 0 40%;
         margin-top: -80px;
         .yu {
           width: 100px;
@@ -116,6 +116,13 @@
           background-color: #c09e59;
           margin-top: -15px;
         }
+      }
+      .my-pic {
+        border-radius: 0px;
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 0px 20px 0px 20px;
       }
       .bb {
         display: flex;
